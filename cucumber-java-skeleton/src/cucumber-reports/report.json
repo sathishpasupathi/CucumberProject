@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9102707971,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The URL of Git Hub",
+            "match": {
+              "location": "Stepdefs.the_URL_of_Git_Hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "git-hub-login-feature;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 164617977,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters sathishpasupathi as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sathishpasupathi",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_sathishpasupathi_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155755783,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters P@ssw0rd as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P@ssw0rd",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_abcd_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2050342824,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on SignIn",
+            "match": {
+              "location": "Stepdefs.user_Clicks_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204006432,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Navigates to Git Hub",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Git Hub",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefs.user_Navigates_to_Git_Hub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9150725276,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The URL of Git Hub",
+            "match": {
+              "location": "Stepdefs.the_URL_of_Git_Hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "git-hub-login-feature;login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107210620,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters sathishpasupathi as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sathishpasupathi",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_sathishpasupathi_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75608631,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters abcd as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefs.user_enters_abcd_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1043080816,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on SignIn",
+            "match": {
+              "location": "Stepdefs.user_Clicks_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88120520,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Navigates to Sign In Git Hub",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign In Git Hub",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefs.user_Navigates_to_Git_Hub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Git Hub Login Feature",
+    "description": "",
+    "id": "git-hub-login-feature",
+    "keyword": "Feature",
+    "uri": "skeleton/GitHubLogin.feature"
+  }
+]
